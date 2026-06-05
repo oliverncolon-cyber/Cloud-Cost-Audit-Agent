@@ -1,5 +1,5 @@
 {
-  "name": "oliver-audit-agent",
+  "name": "oliver-cloud-costaudit-agent",
   "version": "1.0.0",
   "description": "Infernal GCP cost auditor that dissects billing data and exports shards to Looker Studio or interactive Windows BI-style HTML dashboards. Powered by multiple AI engines.",
   "main": "index.js",
