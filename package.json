@@ -1,0 +1,32 @@
+{
+  "name": "oliver-audit-agent",
+  "version": "1.0.0",
+  "description": "Infernal GCP cost auditor that dissects billing data and exports shards to Looker Studio or interactive Windows BI-style HTML dashboards. Powered by multiple AI engines.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"No tests configured yet. Add your own in the shadows.\" && exit 0",
+    "install-deps": "npm install",
+    "clean": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.0.0",
+    "@google/generative-ai": "^0.21.0",
+    "@anthropic-ai/sdk": "^0.27.0",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "author": "oliverncolon-cyber",
+  "license": "MIT",
+  "keywords": ["gcp", "billing", "cost-audit", "bigquery", "looker", "ai-analysis", "node"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliverncolon-cyber/oliver-cost-cloud-audit-agent.git"
+  }
+}
